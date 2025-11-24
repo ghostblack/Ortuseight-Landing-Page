@@ -96,21 +96,21 @@ export const NEW_ARRIVALS: Product[] = [
     discount: '15%',
     originalPrice: 'IDR 589,000.00',
     color: 'Black Gum',
-    image: 'https://images.unsplash.com/photo-1511556532299-8f662fc26c06?q=80&w=800&auto=format&fit=crop',
+    image: 'https://i.imgur.com/4r5lz8E.png',
   },
   {
     id: '7',
     name: 'CATALYST CIPHER FG',
     price: 'IDR 899,000.00',
     color: 'Gold Black',
-    image: 'https://images.unsplash.com/photo-1575537302964-96cd47c06b1b?q=80&w=800&auto=format&fit=crop',
+    image: 'https://i.imgur.com/4r5lz8E.png',
   },
   {
     id: '8',
     name: 'FORTE HELIOS V3',
     price: 'IDR 679,000.00',
     color: 'Solar Red',
-    image: 'https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?q=80&w=800&auto=format&fit=crop',
+    image: 'https://i.imgur.com/4r5lz8E.png',
   }
 ];
 
