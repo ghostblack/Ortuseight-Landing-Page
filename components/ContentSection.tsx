@@ -104,11 +104,11 @@ export const ContentSection: React.FC = () => {
   };
 
   return (
-    <section id="product" className="bg-white w-full px-6 py-20 md:px-[80px] md:py-[140px] relative z-20">
+    <section id="product" className="bg-white w-full px-6 py-16 md:px-[80px] md:py-28 relative z-20">
       
       {/* 1. Header Navigation */}
       <RevealOnScroll>
-        <div className="flex flex-col md:flex-row justify-between items-end md:items-center mb-8 border-b border-gray-100 pb-4">
+        <div className="flex flex-col md:flex-row justify-between items-end md:items-center mb-12 border-b border-gray-100 pb-6">
           <div className="flex gap-8 text-sm md:text-base">
             {renderTab('new', 'New Arrival')}
             {renderTab('popular', 'Most Popular')}
@@ -122,7 +122,7 @@ export const ContentSection: React.FC = () => {
 
       {/* 2. Product Slider / Carousel */}
       <RevealOnScroll delay={200}>
-        <div className="relative mb-8">
+        <div className="relative mb-6">
           <div 
             ref={scrollContainerRef}
             className="flex gap-6 overflow-x-auto scrollbar-hide snap-x snap-mandatory pb-4"
@@ -168,7 +168,7 @@ export const ContentSection: React.FC = () => {
 
       {/* 3. Bento Grid / Promotional Layout */}
       <RevealOnScroll delay={100}>
-        <div className="grid grid-cols-1 md:grid-cols-3 md:grid-rows-2 gap-6 h-auto md:h-[905px]">
+        <div className="grid grid-cols-1 md:grid-cols-3 md:grid-rows-2 gap-8 h-auto md:h-[905px]">
           
           {/* Cell 1: Rotating Carousel (Left Column, Spans 2 Rows) */}
           <div className="relative h-[500px] md:h-full md:row-span-2 bg-gray-100 group overflow-hidden">
@@ -265,7 +265,7 @@ export const ContentSection: React.FC = () => {
           {/* Cell 5: Running Image (Right Column, Bottom Row) */}
           <div className="relative h-[250px] md:h-auto group overflow-hidden bg-gray-900 min-h-0">
             <img 
-              src="https://i.imgur.com/Cp5pGqn.png" 
+              src="https://i.imgur.com/wJNntub.png" 
               alt="Running with us"
               className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 opacity-80 group-hover:opacity-100"
             />

@@ -3,9 +3,9 @@ import { RevealOnScroll } from './RevealOnScroll';
 
 export const Footer: React.FC = () => {
   return (
-    <footer className="w-full bg-white pt-20 pb-0">
+    <footer className="w-full bg-white pt-16 md:pt-24 pb-0">
       {/* Main Footer Content */}
-      <div className="px-6 md:px-[80px] pb-20">
+      <div className="px-6 md:px-[80px] pb-12 md:pb-24">
         <div className="flex flex-col lg:flex-row justify-between gap-12 lg:gap-20">
           
           {/* Left Column: Brand & Tagline */}
@@ -70,22 +70,12 @@ export const Footer: React.FC = () => {
                   <li><a href="#" className="text-black font-light hover:text-brand-orange transition-colors">About Us</a></li>
                   <li><a href="#" className="text-black font-light hover:text-brand-orange transition-colors">Our Team</a></li>
                   <li><a href="#" className="text-black font-light hover:text-brand-orange transition-colors">Contact Us</a></li>
-                  <li><a href="#" className="text-black font-light hover:text-brand-orange transition-colors">F.A.Q</a></li>
-                  <li><a href="#" className="text-black font-light hover:text-brand-orange transition-colors">Tracking Order</a></li>
+                  <li><a href="#" className="text-black font-light hover:text-brand-orange transition-colors">FAQ</a></li>
                 </ul>
               </div>
             </RevealOnScroll>
 
           </div>
-        </div>
-      </div>
-
-      {/* Bottom Bar: Copyright */}
-      <div className="w-full bg-[#1a1a1a] py-6 px-6 md:px-[80px]">
-        <div className="flex flex-col md:flex-row justify-center items-center text-center text-white/90 font-light text-sm tracking-wide gap-2">
-          <span>Privacy Policy</span>
-          <span className="hidden md:inline mx-2">Terms and Conditions</span>
-          <span>&copy; 2025 Ortuseight. All Rights Reserved</span>
         </div>
       </div>
     </footer>

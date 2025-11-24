@@ -25,11 +25,11 @@ const STORIES = [
 
 export const StayAheadSection: React.FC = () => {
   return (
-    <section id="news" className="bg-[#111111] text-white w-full px-6 py-20 md:px-[80px] md:py-[140px] border-t border-gray-900">
+    <section id="news" className="bg-[#111111] text-white w-full px-6 py-16 md:px-[80px] md:py-24 border-t border-gray-900">
       
       {/* Header */}
       <RevealOnScroll>
-        <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-24 border-b border-gray-800 pb-6">
+        <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-16 border-b border-gray-800 pb-8">
           <div>
             <h2 className="text-4xl md:text-5xl font-sans font-normal mb-3 tracking-normal">STAY AHEAD</h2>
             <p className="text-gray-400 text-base font-light tracking-wide">News, innovations, and stories from the field.</p>
@@ -41,7 +41,7 @@ export const StayAheadSection: React.FC = () => {
       </RevealOnScroll>
 
       {/* Grid Stories */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-20">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
         {STORIES.map((story, index) => (
           <RevealOnScroll key={story.id} delay={index * 150} className="h-full">
             <div className="group relative aspect-[4/5] overflow-hidden bg-gray-900 cursor-pointer h-full">
@@ -79,7 +79,7 @@ export const StayAheadSection: React.FC = () => {
 
       {/* Footer / Pagination Controls - Boxed Layout */}
       <RevealOnScroll delay={300}>
-        <div className="flex items-center justify-between border border-white/20 py-4 px-6 mt-10 w-full">
+        <div className="flex items-center justify-between border border-white/20 py-4 px-6 mt-0 w-full">
           <button className="text-white hover:text-brand-orange transition-colors">
             <ChevronLeft className="w-8 h-8" />
           </button>
