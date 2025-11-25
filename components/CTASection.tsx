@@ -4,7 +4,7 @@ import { RevealOnScroll } from './RevealOnScroll';
 
 export const CTASection: React.FC = () => {
   return (
-    <section id="about" className="bg-white w-full px-6 py-16 md:px-[80px] md:py-24">
+    <section id="about" className="bg-white w-full px-8 py-16 md:px-[120px] md:py-24">
       {/* Inner container set to w-full to fill the parent's content box (minus padding) */}
       <RevealOnScroll>
         <div className="relative w-full h-[400px] md:h-[800px] overflow-hidden group bg-gray-900">

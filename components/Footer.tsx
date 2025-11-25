@@ -3,9 +3,9 @@ import { RevealOnScroll } from './RevealOnScroll';
 
 export const Footer: React.FC = () => {
   return (
-    <footer className="w-full bg-white pt-16 md:pt-24 pb-0">
+    <footer className="w-full bg-white pt-16 md:pt-20 pb-0">
       {/* Main Footer Content */}
-      <div className="px-6 md:px-[80px] pb-12 md:pb-24">
+      <div className="px-8 md:px-[120px] pb-12 md:pb-20">
         <div className="flex flex-col lg:flex-row justify-between gap-12 lg:gap-20">
           
           {/* Left Column: Brand & Tagline */}

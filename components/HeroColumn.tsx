@@ -39,7 +39,7 @@ export const HeroColumn: React.FC<HeroColumnProps> = ({ data, index }) => {
       >
         <a href={data.link} className="block group/link">
           <div className="flex flex-col items-start gap-3">
-            <ArrowRight className="w-6 h-6 text-white group-hover/link:text-brand-orange group-hover/link:translate-x-2 transition-all duration-300" />
+            <ArrowRight className="w-6 h-6 text-white opacity-0 translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 group-hover:text-brand-orange transition-all duration-500 ease-out" />
             <h2 className="text-2xl md:text-3xl font-display font-normal text-white tracking-wide uppercase">
               {data.title}
             </h2>
